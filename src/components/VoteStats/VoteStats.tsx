@@ -1,6 +1,5 @@
 import type { Votes } from "../../types/votes";
 import css from "./VoteStats.module.css";
-
 interface Props {
   votes: Votes;
   totalVotes: number;
